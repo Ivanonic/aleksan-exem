@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+div.baner5-bg{
+    background-color: #03a9f3;
+}
+
+.baner5-bg{
+    height: 630px;
+    background: url(../img/04-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom ;
+    background-size: contain;
+    padding-top: 100px;
+     
+
+    h1{
+        font-size: 33px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    // .container-box1{
+    //     width: 945px;
+    //     height: 633px;
+    // }
+    
+
+}
+
+

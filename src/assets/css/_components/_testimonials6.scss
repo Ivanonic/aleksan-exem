@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.baner6-bg{
+    height: 705px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+    select{
+        width: 275px;
+        color: blueviolet;
+        border: none;
+    }
+    select:hover{
+        background-color:aqua;
+        box-shadow: 2px 2px aqua;
+        border-radius: 53px;
+    }
+}
