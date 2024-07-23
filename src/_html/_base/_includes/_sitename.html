@@ -41,11 +41,15 @@
                             </li>
                             <li class="site1-item">
                               <p>Number of pages</p>
-                                <ul class="pagination">
-                                  <li class="page1-item"><a class="page1-link" href="#">-</a></li>
-                                  <li class="page2-item"><a class="page2-link" href="#">2</a></li>
-                                  <li class="page3-item"><a class="page3-link" href="#">+</a></li>
-                                </ul>
+                              <div class="quantity_inner">        
+                                <button class="bt_minus">
+                                    <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                                <input type="text" value="2" size="2" class="quantity" data-max-count="20" />
+                                <button class="bt_plus">
+                                    <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                            </div>
                             </li>
                         <li class="site1-item1">
                           <a class="site1-btn2" href="#">Continue</a>
