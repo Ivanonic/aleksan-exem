@@ -2,16 +2,28 @@
     box-sizing: border-box;
 }
 div.baner5-bg{
+    margin: 0 ;
+    padding: 0;
     background-color: #03a9f3;
-}
-
-.baner5-bg{
-    height: 630px;
-    background: url(../img/04-bg.png);
+    height: 555px;
+    background-image: url(../img/04-bg.png);
     background-repeat: no-repeat;
-    background-position: center bottom ;
     background-size: contain;
-    padding-top: 100px;
+    background-position: bottom;
+
+
+    .hed-con5{
+        padding: 100px 0px 0px 0px;
+    }
+
+}
+.baner5-bg{
+    // height: 555px;
+    // background-image:  url(../img/04-bg.png);
+    // background-position: bottom;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    
      
 
     h1{
@@ -29,14 +41,27 @@ div.baner5-bg{
         font-weight: 500;
         font-family: "Poppins";
         text-align: center;
+        // padding-bottom: 80px;
     }
 
     // .container-box1{
     //     width: 945px;
     //     height: 633px;
     // }
-    
 
+    div.container-block{
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+
+        div.card{
+            display: flex;
+            width: 555px;
+            height: 490px;
+            
+        }
+    }
+    
 }
 
 

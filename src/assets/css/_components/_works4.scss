@@ -1,19 +1,23 @@
 *{
     box-sizing: border-box;
 }
-
-
+div.container.hed-con4{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 95px;
+}
 
 .baner4-bg{
     background-color: #ffffff;
-    height: 550px;
+    padding: 0px;
     padding-top: 130px;
+    
     
 
     div.grid{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
-        column-gap: -10px;
+        column-gap: 10px;
 
         a{
             text-decoration: none;
