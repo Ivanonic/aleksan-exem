@@ -15,17 +15,7 @@ div.baner5-bg{
     .hed-con5{
         padding: 100px 0px 0px 0px;
     }
-
-}
-.baner5-bg{
-    // height: 555px;
-    // background-image:  url(../img/04-bg.png);
-    // background-position: bottom;
-    // background-size: contain;
-    // background-repeat: no-repeat;
     
-     
-
     h1{
         font-size: 33px;
         color: #ffffff;
@@ -44,11 +34,6 @@ div.baner5-bg{
         // padding-bottom: 80px;
     }
 
-    // .container-box1{
-    //     width: 945px;
-    //     height: 633px;
-    // }
-
     div.container-block{
         display: flex;
         justify-content: center;
@@ -56,12 +41,79 @@ div.baner5-bg{
 
         div.card{
             display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
             width: 555px;
             height: 490px;
-            
+            align-content: flex-end;
+            justify-content: space-between;
+            align-items: center;
+           
         }
+        
+
+        div.card-body1{
+            display: flex;
+
+            h5{
+                display: flex;
+                flex-wrap: wrap;
+                // height: 100px;
+                font-size: 35px;
+                line-height: 40px;
+                color: #f75e2e;
+                font-family: Poppins-Bold;
+                justify-content: flex-end;
+            }
+
+            h6{
+                display: flex;
+                justify-content: flex-end;
+                font-size: 35px;
+                line-height: 40px;
+                color: #f75e2e;
+                font-family: Poppins-Bold;
+                text-align: center;
+            }
+
+            a.card-link1{
+                font-size: 14px;
+                line-height: 22px;
+                color: #51555a;
+                font-weight: 400;
+                font-family: Poppins-Medium;
+                display: flex;
+                justify-content: center;
+            }
+
+            a.card-link2{
+                font-size: 17px;
+                color: #0287c3;
+                font-weight: 600;
+                font-family: "Poppins";
+                text-align: center;
+            }
+
+        }
+
+        div.card-body2{
+            display: flex;
+           
+            
+
+        }
+
+        div.card-body3{
+            display: flex;
+
+        }
+
+        div.card-body4{
+            display: flex;
+        }
+           
+
     }
-    
 }
 
 

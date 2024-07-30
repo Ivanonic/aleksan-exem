@@ -11,13 +11,18 @@ div.container.hed-con4{
     background-color: #ffffff;
     padding: 0px;
     padding-top: 130px;
+
+    h1{
+        text-align: center;
+        cursor: grab;
+    }
     
     
 
     div.grid{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
-        column-gap: 10px;
+        padding: 0px 100px 0px 120px;
 
         a{
             text-decoration: none;
@@ -35,6 +40,7 @@ div.container.hed-con4{
             font-family: "Poppins";
             text-align: center;
             padding-bottom: 15px;
+            cursor: grab;
         }
 
         p{
@@ -44,6 +50,7 @@ div.container.hed-con4{
             font-weight: 400;
             font-family: "Poppins";
             text-align: center;
+            cursor: grab;
         }
     }
 

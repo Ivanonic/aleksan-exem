@@ -24,6 +24,7 @@
                     img.nav-logo1{
                         display: flex;
                         margin-right: 100px;
+                        
                     }
                 }
 
@@ -51,8 +52,6 @@
                                 background-color: #03a9f3;
                                 border: none;
                                 outline: none;
-                        
-            
                             }
 
                             .nav-link1:hover{
@@ -105,6 +104,7 @@
                             }
 
                             a.nav-phone{
+                                text-decoration: none;
                                 color: #ffffff;
                                 display: flex;
                                 align-items: center;
@@ -169,6 +169,7 @@
                             }
 
                             a.nav-burger{
+                                text-decoration: none;
                                 color: #ffffff;
                                 display: flex;
                                 align-items: center;
@@ -176,42 +177,35 @@
 
                             a.nav-burger:hover .burger{
                                 box-shadow: 2px 2px 3px #000000 inset;
-
-                                
                             }
 
                         }
+                
+                        li{
+                           display: flex; 
+
+                           a.head1-logo1{
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            transform: rotateY(190deg);
+                        }
+
+                
+
                     }
+
                 }
             }
         }
+            
     }
-
-    div.head1-logo1{
-        display: flex;
-        align-items: center;
-        
-        img.nav-logo2{
-            display: inline-block;
-            a
-        }
-    }
-
     
     @media screen and(min-width: 970px) and (max-width: 2650px){
         .burger{
             display: none;
         }
     }
-    // @media screen and(min-width: 550px) and (max-width: 770px){
-    //     .burger{
-    //         display: ;
-    //     }
-    // }
-   
 
-    
-
-    
-
-}   
+    }
+}

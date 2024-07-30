@@ -1,0 +1,63 @@
+div.baner7-bg{
+    background-color: #03a9f3;
+    height: 600px;
+    padding: 20px 0px 20px 0px;
+
+    div.hed-con7{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        nav.navbott-expand{
+            display: flex;
+
+            div.navbott-block{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+
+                a.navbott-logo{
+                    display: flex;
+                    text-decoration: none;
+
+                    img.bott-logo1{
+                        display: flex;
+                        margin-right: 210px;
+                    }
+                }
+            }
+
+            div.navbott-collapse{
+                display: flex;
+
+                ul.navbott-nav{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-items: center;
+
+                    li.nav-item{
+                        display: flex;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    div.navbott-line1{
+        opacity: 0.502;
+        width: 1140px;
+        height: 1px;
+        background-color: #ffffff;
+        margin: 0 auto;
+    }
+
+}
+table{
+    margin: 0 auto;
+    
+}
