@@ -13,23 +13,27 @@ div.baner3-bg{
     
 
    .hed-con3{
-        padding: 100px;
+        padding-top: 100px;
 
         h1{
-            display: flex;
-            justify-content: center;
+            display: block;
+            // text-align: center;
+            // justify-content: center;/
+            margin: 0 auto;
             font-size: 33px;
             color: #ffffff;
             font-weight: 500;
             font-family: Poppins-Light;
             margin-bottom: 95px;
             cursor: grab;
+            position: relative;
+            left: 278px;
             
         }
 
         .advan-flex{
             display: flex;
-            
+            margin: 0 auto;
 
             div.advan-block1{
                 width: 360px;
@@ -180,8 +184,11 @@ div.baner3-bg{
         }
 
         div.advan-btn_box{
-            display: flex;
-            justify-content: center;
+            // display: flex;
+            // justify-content: center;
+            position: relative;
+            left: 410px;
+            margin: 0 auto;
 
             a{
                 text-decoration: none;

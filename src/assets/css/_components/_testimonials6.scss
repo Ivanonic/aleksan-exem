@@ -8,14 +8,98 @@
     margin: 0;
     padding: 0;
 
-    select{
-        width: 275px;
-        color: blueviolet;
-        border: none;
+    div.hed-con6{
+        padding-top: 250px;
+
+        h5{
+            font-size: 33px;
+            color: #323538;
+            font-weight: 500;
+            font-family: Poppins-Medium;
+            text-align: center;
+            padding-bottom: 70px;
+        }
+
+        div.block_img{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a.blocl_img_a-1{
+                text-decoration: none;
+
+                img.block_img_arrow-png{
+                    display: block;
+
+                }
+
+            }
+
+            div.block_animation{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: nowrap;
+
+                img.img_05-user-01{
+                    display: block;
+                    padding-bottom: 50px;
+                }
+
+                div.block_animation_p{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    width: 600px;
+                    height: 155px;
+
+                    p.block_p-1{
+                        display: block;
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: #51555a;
+                        font-weight: 300;
+                        font-family: Poppins-light;
+                        text-align: justify;
+                        padding-bottom: 40px;
+
+                        span{
+                            display: block;
+                            text-align: center;
+                        }
+
+                    }
+
+                    p.block_p-2{
+                        display: block;
+                        font-size: 17px;
+                        color: #0287c3;
+                        font-weight: 600;
+                        font-family: Poppins-Medium;
+                        text-align: center;
+                        padding-bottom: 10px;
+                    }
+
+                    p.block_p-3{
+                        display: block;
+                        font-size: 13px;
+                        color: #a3a6a9;
+                        font-weight: 300;
+                        font-family: "Poppins";
+                        text-align: center;
+                    }
+
+                }
+
+            }
+
+
+        }
+
+
     }
-    select:hover{
-        background-color:aqua;
-        box-shadow: 2px 2px aqua;
-        border-radius: 53px;
-    }
+
+   
 }
